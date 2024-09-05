@@ -11,6 +11,7 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
+    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
@@ -34,6 +35,10 @@
         font-family: "Mate", serif;
         font-weight: 400;
       }
+      li::marker {
+        background-color: green;
+        color: green;
+      }
     </style>
   </head>
   <body>
@@ -55,9 +60,56 @@
           evaluations and opinions are independently crafted.
         </div>
       </section>
+      <section id="our-verdict" class="my-3">
+        <div class="card rounded">
+          <div class="card-body bg-success d-flex">
+            <h2 class="card-title text-white">Our Verdict</h2>
+          </div>
+          <div class="card-body row">
+            <p class="card-text col-12 col-lg-8 col-md-9">
+              Prodigy Finance is a strong option for international students who
+              need financial assistance for their education without the need for
+              a co-signer or collateral. With their competitive interest rates
+              and flexible repayment terms, they offer a tailored solution for
+              those studying at top-tier institutions.
+            </p>
+          </div>
+          <div class="card-body">
+            <div
+              class="p-md-3 p-sm-2 border container-md mx-auto border-light row bg-light"
+            >
+              <div class="col-12 col-md-6">
+                <div class="d-flex justify-content-start text-success">
+                  <i class="lni lni-thumbs-up mx-2 mt-2"></i>
+                  <h3 class="text-dark">Pros</h3>
+                </div>
+                <ul>
+                  <li>No co-signer or collateral needed</li>
+                  <li>Access to funding without a U.S credit history</li>
+                  <li>Covers both tuition and living expenses</li>
+                  <li>Interest rates based on future earning potential</li>
+                  <li>
+                    No penalties for early repayment, allowing you to save on
+                    interest costs if you can pay off the loan sooner
+                  </li>
+                </ul>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="d-flex justify-content-start text-danger">
+                  <i class="lni lni-thumbs-down mx-2 mt-2"></i>
+                  <h3 class="text-dark">Cons</h3>
+                </div>
+                <ul>
+                  <li>Limited to specific schools and programs</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section class="my-5 container" id="overview">
         <h2>Prodigy Finance Overview</h2>
-        <h3 >Who Are They?</h3>
+        <h3>Who Are They?</h3>
         <p>
           Prodigy Finance specializes in offering loans to international
           students pursuing higher education, particularly those attending top
@@ -120,7 +172,7 @@
       </section>
       <section id="eligibility" class="my-3">
         <h2 class="my-4">Eligibility</h2>
-        <h3 >Who Can Apply?</h3>
+        <h3>Who Can Apply?</h3>
         <p>
           International students who have been admitted to one of the supported
           schools.
@@ -131,32 +183,6 @@
           provided within minutes. Full approval requires additional
           documentation and a final review
         </p>
-      </section>
-      <section id="pros-cons" class="my-5">
-        <h2>Pros and Cons</h2>
-        <div
-          class="p-md-3 p-sm-2 border container-md mx-auto border-light row bg-light"
-        >
-          <div class="col-12 col-md-6">
-            <h3 class="mb-4">Pros</h3>
-            <ul>
-              <li>No co-signer or collateral needed</li>
-              <li>Access to funding without a U.S credit history</li>
-              <li>Covers both tuition and living expenses</li>
-              <li>Interest rates based on future earning potential</li>
-              <li>
-                No penalties for early repayment, allowing you to save on
-                interest costs if you can pay off the loan sooner
-              </li>
-            </ul>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4">
-            <h3>Cons</h3>
-            <ul>
-              <li>Limited to specific schools and programs</li>
-            </ul>
-          </div>
-        </div>
       </section>
       <section id="repayment-options" class="my-5">
         <h2>Repayment Options</h2>
@@ -225,32 +251,83 @@
           flexible repayment terms, they offer a tailored solution for those
           studying at top-tier institutions.
         </p>
-        <div class="my-4 w-100 d-block text-center">
-          <a
-            name="apply-now"
-            id="apply-now"
-            class="btn btn-success mx-auto btn-lg"
-            href="http://ladder.8b.africa"
-            role="button"
-            >Apply Now</a
-          >
+        <div
+          class="row justify-content-between align-items-center p-3 bg-light border"
+        >
+          <div class="col-12 col-md-6">
+            <h2>Find Fair Financing</h2>
+            <p>
+              Use our trusted and secure platform to compare eligibility to
+              different loan options in minutes
+            </p>
+          </div>
+          <div class="col-12 col-md-6 my-4 justify-content-end">
+            <a
+              name="apply-now"
+              id="apply-now"
+              class="btn btn-success mx-auto btn-md"
+              href="http://ladder.8b.africa"
+              role="button"
+              >Apply Now</a
+            >
+          </div>
         </div>
       </section>
       <section id="faq" class="my-5">
         <h2 class="mb-4">Frequently Asked Questions</h2>
-        <h3>
-          What happens if I don't find a job immediately after graduation?
-        </h3>
-        <p>
-          Prodigy Finance offers flexible repayment plans that can be adjusted
-          based on your financial situation, but it's important to contact them
-          early if you anticipate any issues.
-        </p>
-        <h3>Can I apply if I am already studying?</h3>
-        <p>
-          Yes, students can apply for loans for the remaining period of their
-          studies.
-        </p>
+        <div class="accordion accordion-flush" id="accordionExample">
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                What happens if I don't find a job immediately after graduation?
+              </button>
+            </h3>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Prodigy Finance offers flexible repayment plans that can be
+                adjusted based on your financial situation, but it's important
+                to contact them early if you anticipate any issues.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Can I apply if I am already studying?
+              </button>
+            </h3>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Yes, students can apply for loans for the remaining period of
+                their studies.
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
   </body>
